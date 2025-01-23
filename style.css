@@ -1,0 +1,50 @@
+/*Basic Styling for Body*/
+body {
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/*Style for container of form*/
+.form-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+  width: 300px;
+}
+
+/*Style for Input box*/
+input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  margin-top: 8px;
+  box-sizing: border-box;
+}
+
+/*Common Style of Button*/
+button {
+  width: 40%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/*Style for p id "message" only*/
+#message {
+  color: green;
+}
+
+/*Style for Button id "submitBtn" only*/
+#submitBtn {
+  background-color: green;
+  color: white;
+  margin: 5% 0 0 60%;
+}
+
+/*Hover effect for Button id "submitBtn" only*/
+#submitBtn:hover{
+  background-color: darkgreen;
+}
+
